@@ -1,0 +1,105 @@
+@media screen and (max-width: 1250px) {
+  
+  .header h1 {
+    margin-left: 20px;
+  }
+  
+  .log-in-button {
+    margin-right: 20px;
+  }
+  
+  .main-content {
+    flex-direction: column;
+  }
+  
+   .signup-info {
+    margin: 60px auto;
+     width: 90%;
+  }
+  
+  .signup-info h1 {
+    margin: 0;
+  }
+  
+  .row {
+    padding-left: 0;
+    
+  }
+  
+  .signup-forms {
+    width: 90%;
+    margin-left: 20px;
+  }
+  
+  .footer-settings li {
+     padding: 10px 15px 10px 6px;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+  
+  .header h1 {
+    margin: auto;
+    font-size: 2.5em;
+  }
+  
+  .input-container, .log-in-button {
+    display: none;
+  }
+  
+  .button-2{
+    display: block;
+  }
+  
+  .footer-container {
+    margin: 0 20px;
+  }
+  
+  
+  
+ 
+  
+}
+
+@media screen and (max-width: 550px) {
+  
+  .signup-info {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .signup-info h1 {
+    margin: 60px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .row {
+    display: block;
+    margin-left: 20px;
+  }
+  
+  .full-width-form {
+    width: auto;
+  }
+  
+  .signup-input-container {
+    width: 100%;
+  }
+  
+  .signup-input-container input[type='text'] {
+    width: 90%;
+  }
+  
+  
+  
+  .fb-page-create, .policy {
+    width: 85%;
+  }
+  
+  .footer-container {
+    width: 85%;
+  }
+  
+}
